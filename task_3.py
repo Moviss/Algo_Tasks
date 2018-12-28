@@ -9,4 +9,4 @@ def number_generator():
         i += Decimal(0.5)
     return print(number_list)
 
-number_generator()
+# number_generator()
