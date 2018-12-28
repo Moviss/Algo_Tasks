@@ -7,6 +7,6 @@ def number_generator():
     while i <= Decimal(5.5):
         number_list.append(i)
         i += Decimal(0.5)
-    return print(number_list)
+    return number_list
 
-# number_generator()
+# print(number_generator())
