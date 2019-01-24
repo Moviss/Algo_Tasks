@@ -1,4 +1,4 @@
-from decimal import *
+from decimal import Decimal
 
 
 def number_generator():
@@ -8,5 +8,6 @@ def number_generator():
         number_list.append(i)
         i += Decimal(0.5)
     return number_list
+
 
 # print(number_generator())
