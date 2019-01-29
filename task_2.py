@@ -11,7 +11,8 @@ def find_missing(in_list, n):
     return miss_list
 
 
-# testArr1 = [3, 5, 7, 8, 9, 12, 14]
-# testArr2 = [1, 5, 8, 67]
-# print(find_missing(testArr1, 22))
-# print(find_missing(testArr2, 88))
+testArr1 = [3, 5, 7, 8, 9, 12, 14]
+testArr2 = [1, 5, 8, 67]
+print(find_missing(testArr1, 22))
+print(find_missing(testArr2, 88))
+
